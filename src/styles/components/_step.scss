@@ -1,0 +1,29 @@
+.ant-steps{
+  margin-top:40px;
+
+  &-item{
+    font-weight:400;
+  
+   &-title{
+      font-size: 14px;
+      color:$primary-color;
+      line-height: 19px ;
+    }
+
+    &-description{
+      font-size:13px;
+      color:$secondary-text-color;
+
+    }
+    
+    &-finish,&-process{
+      .ant-steps-item-icon{
+        background: $primary-color !important;
+        border-color:$primary-color;
+        .ant-steps-icon{
+          color:white
+        }
+      }
+    }
+  }
+}

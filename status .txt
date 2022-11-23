@@ -1,0 +1,14 @@
+
+current Status => Action => next Status
+
+supplier assigned=>pending
+
+Pending=>RECEIVED SAMPLE QUOTE=>Quote Received
+Quote Received =>  REQUEST SAMPLE ORDER => Pending Sample
+
+Pending Sample => RECEIVED SAMPLE ORDER => Sample Received
+Sample Received => REQUEST PRODUCT ORDER => Pending Order
+
+Pending Order => RECEIVED PRODUCT ORDER => Order Received === not happening
+Order Received => ADD TO SHIPPED =>
+

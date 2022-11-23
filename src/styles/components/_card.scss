@@ -1,0 +1,19 @@
+.login-card{
+  border-radius:15,
+}
+
+.ant-tag {
+  background: $primary-color-light;
+  color: $primary-color;
+  border: 0;
+  border-radius: 3px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.active-tag{
+  background: #F6FFED !important;
+}
+.inactive-tag{
+  background: #FFF1F0 !important;
+}

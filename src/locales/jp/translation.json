@@ -1,0 +1,21 @@
+{
+  "japanese":"日本語",
+  "english":"英語",
+
+  "one_crm":"自分のもの 顧客関係管理 ",
+
+  "dashboard":"ダッシュボード",
+  "products":"製品",
+  "suppliers":"サプライヤー",
+  "customers":"顧客",
+  "settings":"設定",
+  "home":"家",
+
+  "edit_profile":"プロファイル編集",
+  "logout":"ログアウト",
+
+  "create_new":"新しいを作成します",
+  "add_sample_quote":"サンプル見積もりを追加",
+  "create_new_supplier":"新しいサプライヤーを作成する",
+  "add_new_customer":"顧客を追加する"
+}

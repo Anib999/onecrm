@@ -1,0 +1,50 @@
+.filter{
+  margin-bottom:20px;
+
+  .active-filters{
+    margin-bottom:5px;
+
+    span{
+      color:#CCCCCC;
+      font-size:13px;
+    }
+
+    .ant-tag {
+    color: $primary-color;
+    }
+  }
+
+  .ant-picker,.ant-select{
+    display: flex;
+  }
+
+
+  .ant-row {
+    .ant-col {
+      input.ant-input.ant-input-lg,
+      .ant-select .ant-select-selector,
+      .ant-picker,
+      .ant-picker .ant-picker-input input,
+      .ant-input-wrapper .ant-input-affix-wrapper   {
+        border-radius: 3px;
+        border-color: $primary-color-light;
+        font-style: italic;
+        font-size: 15px;
+      }
+
+      .ant-input-wrapper .ant-input-group-addon .ant-input-search-button {
+        height: 38px;
+        background: $primary-color;
+      }
+
+      .ant-btn {
+        font-size:14px
+      }
+
+
+    }
+  }
+
+
+}
+

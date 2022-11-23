@@ -1,0 +1,35 @@
+@import './sidenav';
+
+
+#app-layout{
+   background: #f7f8f7 !important;
+  min-height: 100vh;
+
+  .ant-layout-sider{
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    z-index: 999
+  }
+  
+
+  }
+
+
+.main-app-layout{
+  background-color:#ffffff;
+  padding:40px;
+  width: calc(100% - 200px);
+    margin-left: 200px;
+}
+
+
+.not-found {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  .ant-empty-description {
+    margin-top: 2rem;
+  }
+}

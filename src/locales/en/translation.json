@@ -1,0 +1,23 @@
+{
+  "japanese":"Japanese",
+  "english":"English",
+
+  "one_crm":"One's CRM",
+
+  "dashboard":"Dashboard",
+  "products":"Products",
+  "suppliers":"Suppliers",
+  "customers":"Customers",
+  "settings":"Settings",
+  "home":"Home",
+
+  "edit_profile":"Edit Profile",
+  "logout":"Logout",
+  
+  "create_new":"Create new",
+  "add_sample_quote":"Add Sample Quote",
+  "create_new_supplier":"Create new supplier",
+  "add_new_customer":"Add new customer"
+
+
+}

@@ -1,0 +1,148 @@
+.ant-form {
+    &-item {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+
+        &-label {
+            label {
+                font-size: 15px;
+                font-weight: 600;
+                letter-spacing: 0.2px;
+                color: $secondary-text-color;
+                flex-wrap: wrap;
+            }
+
+        }
+
+        &-control {
+            .ant-form-item-control-input {
+                input {
+                    height: 40px;
+                    border: 1px solid #909090;
+
+                }
+
+                .ant-input-affix-wrapper {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    border: 1px solid #909090;
+
+                    input {
+                        border: 0;
+                    }
+                }
+
+                textarea.ant-input {
+                    height: 140px;
+                    border: 1px solid #909090;
+                }
+
+
+                .ant-select {
+                    // display:flex;
+
+                    &-selector {
+                        padding: 0 8px;
+                        border: 1px solid #909090;
+
+                        .ant-select-selection-item {
+                            // background: $primary-color-light;
+                            // TODO: background color for single and multiple select needs fix
+                            text-transform: capitalize;
+                            font-size: 13px;
+                            border-radius: 100px;
+                            padding-right: 7px;
+                            margin-right: 8px;
+                            .ant-select-selection-item-content {
+                                margin-right: 5px;
+                                color: $primary-color;
+                            }
+
+                            .ant-select-selection-item-remove {
+                                color: #cc0000;
+                            }
+                        }
+                    }
+                }
+
+                .ant-picker{
+                    display:flex;
+                    border: 1px solid #909090;
+
+                    &-input{
+                       input{
+                        border:0px;
+                       }
+                    }
+                }
+
+                .ant-input-number{
+                    width:100%;
+                    border:0px;
+                    // display:flex;
+                }
+            }
+
+
+        }
+
+    }
+}
+
+
+    .ant-modal {
+    max-width: 768px;
+    width: 100% !important;
+
+    .ant-modal-content {
+        .ant-modal-header {
+            padding: 15px 24px 10px;
+
+            .ant-modal-title {
+                font-weight: 700;
+            }
+        }
+
+        .ant-modal-body {
+            padding: 24px 24px 15px;
+            .ant-form {
+                .ant-form-item {
+                    &-label {
+                        label {
+                            font-size: 13px;
+                        }
+                    }
+
+                    &-control {
+                        input {
+                            height: 35px;
+                        }
+                    }
+                }
+
+                .modal-form-btn {
+                    text-align: right;
+                    border-top: 1px solid #dbdbdb;
+                    padding-top: 18px;
+                }
+            }
+        }
+    }
+}
+
+
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    position: absolute;
+    right: -5px;
+    top: 4px;
+}
+
+.ant-form-vertical .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    // background:green;
+    position: absolute;
+    right: -15px !important;
+    top: 4px;
+}
+

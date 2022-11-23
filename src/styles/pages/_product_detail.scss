@@ -1,0 +1,170 @@
+
+.detail-body{
+
+  margin:50px 0px;
+
+  .container{
+    display: flex;
+  }
+
+  &--content{
+    border:1px solid #D6E4F0;
+    display: flex;
+    flex-direction: column;
+    padding:17px;
+    margin-right:40px;
+    flex:1;
+    // display:flex;
+   
+
+    h3{
+      font-size:24px;
+      font-weight:700;
+    }
+
+    .list-item{
+        margin:10px 0px;
+        flex-flow: row wrap;
+        display: flex;
+        line-height: 19px;
+        letter-spacing: 0.2px;
+        // justify-content: space-between;
+      
+      &--title{
+        font-size:14px;
+        font-weight: 600;
+      }
+
+      &--value{
+        font-size:14px;
+        font-weight: 400;
+        color:#505050
+      }
+    }
+
+    
+
+  }
+  .right-content{
+    margin-right:0px;
+    .activity-list{
+      margin-top:20px;
+    .list-item{
+      flex-direction: column;
+      margin-bottom:22px;
+
+      &--title{
+        font-weight:400
+      }
+
+      &--value{
+        font-size:13px;
+        color:#8A8A8A
+      }
+      // background-color: red;
+    }
+    
+  }
+  }
+
+}
+
+
+.price-planner{
+  .supplier-info{
+    h3{
+      font-weight: 700;
+      font-size:18px;
+      margin-bottom:30px;
+    }
+    a{
+      font-weight: 600;
+      color:$primary-color;
+      font-size:15px;
+     
+    }
+  }
+  .costing-summary{
+    display:flex;
+    flex-flow: column wrap;
+
+    &-country-info{
+      background: #EEF3F8;
+      font-size:16px;
+      font-weight: 600;
+     
+      .ant-card-body{
+        display: flex;
+        // justify-content: space-between;
+
+        span{
+          flex-basis: 50%;
+          display:inline-block;
+          &:last-child{
+            text-align: right;
+          }
+        }
+     
+      .value{
+        font-weight: 800;
+      }
+    }
+    }
+
+    &-initial-cost{
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+    }
+
+    &-final-cost{
+      flex-grow: 1;
+      align-items:center;
+      display: flex;
+      background: #EEF3F8;
+      .ant-card-body{
+        width:100%;
+        align-items:center;
+        }
+    }
+}
+
+.ant-statistic{
+  &-title{
+    font-size:17px;
+    font-weight: 600;
+    color:#1C252C;
+    line-height: 15px;
+  }
+
+  &-content{
+    span{
+      font-size:45px;
+      font-weight:700
+    }
+  }
+}
+
+.bottom-info{
+  width:100%;
+  margin-top:20px;
+}
+    
+
+.selling-price-container{
+    .ant-card-body{
+      .inner-container{
+        
+     display:flex;
+     justify-content: space-between;
+     align-items:center;
+     width:100%;
+     padding-right:15%;
+
+    }
+    
+  }
+}   
+  
+}

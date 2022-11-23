@@ -1,0 +1,63 @@
+/* for print puropse only */
+.print-container h1{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+.print-container p{
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+}
+.print-container span{
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.print-container{
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 40px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .mid{
+  display: flex;
+  justify-content: end;
+  margin-right: 400px;
+  padding: 20px 0;
+} */
+
+.bot{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+}
+.content{
+  width: auto;
+}
+
+.table{
+  width: 100%;
+  
+  /* border: 1px solid #232324; */
+  text-align: left;
+}
+.table th{
+  background-color: #5c5c5f34;
+}
+.table th,.table td{
+  border: 1px solid #232324;
+  border-collapse: collapse;
+  padding: 8px 10px;
+  text-align: left;
+}
+

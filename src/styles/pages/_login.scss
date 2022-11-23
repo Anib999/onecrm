@@ -1,0 +1,60 @@
+.login-bg-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+    .login-bg {
+      background-image: url('../../assets/icons/login-bg.png');
+      -webkit-filter: blur(12px) opacity(0.9) brightness(0.9);
+      -moz-filter: blur(12px) opacity(0.9) brightness(0.9);
+      -o-filter: blur(12px) opacity(0.9) brightness(0.9);
+      -ms-filter: blur(12px) opacity(0.9) brightness(0.9);
+      filter: blur(12px) opacity(0.9) brightness(0.9);
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-size: cover;
+    }
+
+    .login-card{     
+    padding: 35px 80px 0;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 32px;
+
+      .welcome{
+        text-align: center;
+        h2 {
+          font-weight: 700;
+          font-size: 36px;
+        } 
+
+        p {
+          font-size: 16px;
+          color: $secondary-text-color;
+        }
+     
+      }
+     
+      .form{
+        margin-top:50px;
+
+        .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+          top: -3px;
+          margin-right: 0;
+          right: -10px;
+        }
+
+        &--checkbox,&--btn {
+          text-align: center;
+        }
+        .form--checkbox {          
+          margin-bottom: 5px;
+        }
+     
+      }
+     }
+
+}

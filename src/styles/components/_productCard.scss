@@ -1,0 +1,128 @@
+
+.card-outline{
+  border:1px solid #DAE6F1;
+  border-radius: 8px;
+  padding:20px;
+  margin-bottom:20px;
+  letter-spacing: .4px;
+
+  .manage{
+    // margin-top:8px;
+    margin-bottom:-5px;
+    a{
+      color:$primary-color;
+      text-decoration: underline;
+    }
+  }
+
+  &__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:12px;
+    
+    p{
+      color:$primary-color;
+      font-size: large;
+    }
+
+  }
+
+  &__body{
+    &__primary_detail{
+      flex-flow: column wrap;
+      line-height: 19px;
+      
+      &__info{
+        display: inline-flex;
+        flex-direction: column;
+        margin-right:65px;
+        margin-bottom:10px;
+
+        .title{
+          color:$primary-text-color;
+          font-weight: 600;          
+        }
+
+        .value{
+          color:$secondary-text-color;
+          letter-spacing: .3px;
+        }
+      }
+    }
+
+    &__secondary_detail{
+    
+      display: flex;
+      flex-flow: column wrap;
+      margin-top:25px;
+
+      .title{
+        color:$primary-text-color;
+        font-weight: 600;
+        margin-bottom:5px;   
+        
+      }
+     
+      &__list{
+        background-color:#F8F8F8;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:8px;
+        padding:8px 2px 8px 8px;
+        border-radius:5px;
+        line-height: 19px;
+
+        &__wrapper{
+          flex:1;
+          justify-content: space-between;
+           display: flex;
+           flex-flow: wrap;
+           padding:0px 30px;
+           margin-left:95px;
+        }
+
+        &__info{
+          display: inline-flex;
+          flex-flow: column wrap;
+        }
+
+        .title{
+          color:$primary-text-color;
+          letter-spacing: .3px;
+          font-weight: 600;
+          margin-bottom:0px;
+          font-size: 13px;     
+        }
+
+        .value{
+          color:$secondary-text-color;
+          font-weight: 400;     
+          font-size: 13px;     
+        }
+
+
+      }
+     
+      
+    }
+  }
+
+
+  &__subtitle {
+    h4 {
+      color: $secondary-text-color;
+      margin-bottom: 2px;
+      font-size: 13px;
+      strong {
+        font-weight: 600;
+      }
+    }
+    margin-bottom: 15px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,137 @@
+
+.sidebar{
+  box-shadow: 8px 3px 36px rgba(0,0,0,.1);
+  display: flex;
+  background: red;
+  justify-content: space-between;
+  flex:1;
+
+  .ant-layout-sider-children{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column
+  }
+
+  &__header{
+    display: flex;
+    align-items: center;
+    margin:20px 10px;
+    margin-right:15px;
+    margin-bottom:10px;
+    background-color:#D6E4F0;
+    padding:15px;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size:16px;  
+    justify-content: space-between;
+    color: $primary-color;
+
+    a {
+      display: inline-flex;
+    }
+
+    img{
+      margin-right:10px;
+      height:21px;
+      width:21px;
+    }
+  }
+  .side-menu{
+    &__item{
+      display: inline-flex;
+     align-items: center;
+      margin: 0 !important;
+      height: 55px;
+     .nav-link {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+      color:$secondary-text-color;
+      text-transform: capitalize;
+      .icon {
+        color: #C4C4C4;
+        font-size: 22px;
+        width: 44px;
+      }
+      img{
+        height:22px;
+        margin-right:20px;
+
+      }
+      
+     }
+
+     &.ant-menu-item-selected {
+      background: transparent;
+      .nav-link{
+        color: $primary-color;
+        
+        .icon {
+          color: $primary-color;
+          opacity: 0.75;
+        }
+      
+      }
+
+      &:after {
+        border: 2px solid $primary-color-light !important;
+      }
+    }
+    }
+
+    &__sub-menu{
+      img{
+        height:22px;
+        margin-right:15px;
+      }
+      span,.ant-menu-item a{
+        font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+      color:$secondary-text-color;
+      text-transform: capitalize;
+      }
+    }
+  }
+
+  .language-change{
+    position:absolute;
+    bottom:0px;
+  }
+
+  .menu-icon{
+    width:40px;
+  }
+  .menu-name{
+  }
+
+  .footer{
+    // background:red;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+    a{
+      color:red;
+      letter-spacing: 0.4px;
+    }
+  }
+
+
+}
+
+
+.settings-sidebar{
+  padding:30px 10px 0px 20px;
+
+
+  h2{
+    font-size: 26px;
+    font-weight: 600;
+   
+  }
+}
